@@ -1,0 +1,29 @@
+﻿Build started 4/29/2019 10:12:51 PM.
+     1>Project "C:\Users\ME328\Desktop\ME327 Assignment 4\Beck Erick Assignment 4\HapticRendering\HapticRendering.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\HapticRendering.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include /IC:\OpenHaptics\Developer\3.4.0\include /IC:\OpenHaptics\Developer\3.4.0\utilities\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\main.cpp
+         main.cpp
+     1>c:\users\me328\desktop\me327 assignment 4\beck erick assignment 4\main.cpp(442): warning C4101: 'penetration_direction' : unreferenced local variable
+     1>c:\users\me328\desktop\me327 assignment 4\beck erick assignment 4\main.cpp(616): warning C4101: 'sphere_proxy_bound' : unreferenced local variable
+     1>c:\users\me328\desktop\me327 assignment 4\beck erick assignment 4\main.cpp(617): warning C4101: 'proxy_bound' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ME328\Desktop\ME327 Assignment 4\Beck Erick Assignment 4\Debug\/HapticRendering.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\OpenHaptics\Developer\3.4.0\lib\Win32\Debug /LIBPATH:C:\OpenHaptics\Developer\3.4.0\utilities\lib\Win32\Debug /LIBPATH:C:\OpenHaptics\Developer\3.4.0\lib\Win32\ hl.lib hlu.lib hd.lib hdu.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HapticRendering.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ME328\Desktop\ME327 Assignment 4\Beck Erick Assignment 4\Debug\HapticRendering.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ME328\Desktop\ME327 Assignment 4\Beck Erick Assignment 4\Debug\HapticRendering.lib" /MACHINE:X86 Debug\helper.obj
+         Debug\main.obj
+     1>helper.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>hdu.lib(hduError.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduError.obj)' or at 'C:\Users\ME328\Desktop\ME327 Assignment 4\Beck Erick Assignment 4\Debug\vc100.pdb'; linking object as if no debug info
+     1>hdu.lib(hduDecompose.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduDecompose.obj)' or at 'C:\Users\ME328\Desktop\ME327 Assignment 4\Beck Erick Assignment 4\Debug\vc100.pdb'; linking object as if no debug info
+     1>hdu.lib(hduMatrix.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduMatrix.obj)' or at 'C:\Users\ME328\Desktop\ME327 Assignment 4\Beck Erick Assignment 4\Debug\vc100.pdb'; linking object as if no debug info
+     1>hdu.lib(hduQuaternion.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduQuaternion.obj)' or at 'C:\Users\ME328\Desktop\ME327 Assignment 4\Beck Erick Assignment 4\Debug\vc100.pdb'; linking object as if no debug info
+         HapticRendering.vcxproj -> C:\Users\ME328\Desktop\ME327 Assignment 4\Beck Erick Assignment 4\Debug\HapticRendering.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\ME328\Desktop\ME327 Assignment 4\Beck Erick Assignment 4\Debug\/HapticRendering.exe;#1" /manifest Debug\HapticRendering.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\HapticRendering.unsuccessfulbuild".
+         Touching "Debug\HapticRendering.lastbuildstate".
+     1>Done Building Project "C:\Users\ME328\Desktop\ME327 Assignment 4\Beck Erick Assignment 4\HapticRendering\HapticRendering.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.84
